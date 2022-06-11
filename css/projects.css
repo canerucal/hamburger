@@ -90,9 +90,28 @@ nav {
 
 .projects-wrapper {
   width: 100%;
-  height: 10vh;
+  height: 25vh;
   text-align: center;
-  margin-top: 10vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.projects-gallery {
+  text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.figure-caption {
+    font-size: 1.25rem;
+    color: #000000;
+    margin-top: 5vh;
+}
+
+.container {
+  max-width: 1320px;
 }
 
 @media only screen and (max-width: 880px) {
