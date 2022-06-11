@@ -1,0 +1,87 @@
+.sort-destination {
+  width: 100vw !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.isotope-item {
+  width: 25% !important;
+}
+
+.nav-wrapper {
+  background-color: #ffffff;
+}
+
+nav {
+  height: 20vh;
+}
+
+.button-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn {
+  letter-spacing: 1px;
+  text-transform: none;
+  border-width: 1px;
+}
+
+.block-items {
+  display: flex;
+  margin-right: 5%;
+}
+
+.button-account {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.menu-wrapper:hover {
+  background-color: #000000;
+}
+
+.menu-wrapper:hover button {
+  color: white;
+}
+
+.canvas-logo {
+  width: 30%;
+  height: auto;
+}
+
+.language {
+  display: flex;
+}
+
+.nav-link {
+  color: #121519 !important;
+}
+
+.nav-link:hover {
+  color: #bbbbbb !important;
+}
+
+.map-wrapper {
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 880px) {
+  .block-items {
+    display: none;
+  }
+  .logo {
+    margin-right: 15vw;
+  }
+  .map-pic {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .block-items {
+    margin-right: 10% !important;
+  }
+}
