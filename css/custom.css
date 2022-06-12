@@ -10,9 +10,9 @@
 
 .nav-wrapper {
   background-color: #ffffff;
-}
-
-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 20vh;
 }
 
@@ -25,16 +25,6 @@ nav {
   letter-spacing: 1px;
   text-transform: none;
   border-width: 1px;
-}
-
-.block-items {
-  display: flex;
-  margin-right: 5%;
-}
-
-.button-account {
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .menu-wrapper:hover {
@@ -67,10 +57,6 @@ nav {
   justify-content: center;
 }
 
-.logo {
-  margin-left: 5vw;
-}
-
 .menu-text {
   margin-left: 0.5vw;
   font-size: 0.8rem !important;
@@ -95,27 +81,12 @@ nav {
   margin-top: 10vh;
 }
 
-@media only screen and (max-width: 880px) {
+/* @media only screen and (max-width: 880px) {
   .block-items {
     display: none;
-  }
-  .logo {
-    margin-right: 15vw;
   }
   .map-pic {
     width: 100%;
     height: auto;
   }
-  .projects-text {
-    padding-left: 8vw !important;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .block-items {
-    margin-right: 10% !important;
-  }
-  .projects-text {
-    margin-left: 1vw;
-  }
-}
+} */
