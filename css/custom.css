@@ -99,13 +99,16 @@ nav {
   margin-top: 10vh;
 }
 
-.image-gallery-item {
-  width: 400px;
-  height: 400px;
+.width-align {
+  width: 400px !important;
+  height: 400px !important;
 }
 
-.image-gallery {
-  margin-bottom: 2%;
+.width-align:hover {
+  width: 400px !important;
+  height: 400px !important;
+  -webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
+  filter: blur(2.5px);
 }
 
 @media only screen and (max-width: 880px) {
