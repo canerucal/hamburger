@@ -45,6 +45,10 @@ nav {
   color: white;
 }
 
+.menu-wrapper:hover > .black-menu {
+  display: none;
+}
+
 .canvas-logo {
   width: 30%;
   height: auto;
@@ -93,6 +97,15 @@ nav {
   height: 10vh;
   text-align: center;
   margin-top: 10vh;
+}
+
+.image-gallery-item {
+  width: 400px;
+  height: 400px;
+}
+
+.image-gallery {
+  margin-bottom: 2%;
 }
 
 @media only screen and (max-width: 880px) {
