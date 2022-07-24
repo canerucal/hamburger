@@ -83,6 +83,44 @@ nav {
 
 .active {
   text-decoration: underline !important;
+  font-weight: 600;
+}
+
+.about-us-title {
+  font-size: 48px;
+}
+
+.contact-icons {
+  width: 100px;
+  height: 100px;
+}
+
+.contact-value {
+  font-size: 20px;
+}
+
+.contact-item {
+  margin-top: 5%;
+}
+
+.contact-wrapper {
+  margin-bottom: 5%;
+}
+
+.contact-main-wrapper {
+  margin-left: 30% !important;
+  margin-right: 30% !important;
+}
+
+.about-us-text {
+  border-radius: 15px;
+  padding: 2% 4%;
+  font-size: 16px;
+}
+
+.main-text-wrapper {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .projects-text {
@@ -124,6 +162,18 @@ nav {
   }
   .projects-text {
     padding-left: 8vw !important;
+  }
+  .main-text-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contact-main-wrapper {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+  .contact-item {
+    margin-top: 10%;
   }
 }
 
