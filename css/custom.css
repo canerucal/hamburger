@@ -4,16 +4,20 @@
   display: flex !important;
 }
 
+body {
+  background-color: #F6F1EB;
+}
+
 .isotope-item {
   width: 25% !important;
 }
 
-.nav-wrapper {
-  background-color: #ffffff;
-}
-
 nav {
   height: 20vh;
+}
+
+.nav-bg {
+  background-color: #F6F1EB;
 }
 
 .button-text {
@@ -149,12 +153,55 @@ nav {
   filter: blur(2.5px);
 }
 
+.overlay-wrapper {
+  position: relative;
+}
+
+.overlay-img {
+  display: block;
+}
+
+.overlay-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay-blur:hover {
+  opacity: 1;
+}
+
+.overlay-blur > * {
+  transform: translateY(20px);
+  transition: transform 0.3s;
+}
+
+.overlay-blur:hover > * {
+  transform: translateY(0);
+}
+
+.overlay-text {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+
 @media only screen and (max-width: 880px) {
   .block-items {
     display: none;
   }
   .logo {
-    margin-right: 15vw;
+    margin-right: 20vw;
   }
   .map-pic {
     width: 100%;

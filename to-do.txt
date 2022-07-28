@@ -1,0 +1,6 @@
+OK-menü sticky
+OK-4 büyük kategori görseli kaldırılacak
+OK-yeni 4' lüye eski büyük kategori isimleri eklenecek
+OK-kategori görsellerindeki boşluk düzeltilecek
+OK-mobilde logo ortalanacak
+OK-header background'u da alttakiyle aynı yapalım (bej)
